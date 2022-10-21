@@ -4,7 +4,7 @@
 
 # Primera parte: Laravel
 
-En el presente repositorio, se encuentra un script de la base de datos creada en MySql y gestionada mediante Workbech.
+En el presente repositorio se encuentra un script de la base de datos creada en MySql y gestionada mediante Workbench. El archivo se encuentra nombrado como: Script_examenatc_cj.sql
 
 La primera parte se encuentra en la carpeta ExamenLARAVEL.
 
