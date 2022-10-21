@@ -50,6 +50,23 @@ class ConductorController extends Controller
         return response()->json($vehiculos,200);
     }
 
+    // Recuperación de todos los Conductores.
+    public function obtenerTodosConductores()
+    {
+        $conductor = Conductor::all();
+        
+        return response()->json($conductor,200);
+    }
+
+    // Recuperación de todos los Vehículos.
+    public function obtenerTodosVehiculos()
+    {
+        $vehiculos = Vehiculo::all();
+        
+        return response()->json($vehiculos,200);
+    }
+
+
     // Asignación de vehículos a conductores, con respuesta.
     public function asignacionConductor($idConductor, $idVehiculo)
     {

@@ -20,13 +20,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 // API Obtener conductores
-Route::get('obtener-conductores', [ConductorController::class, 'obtenerConductores']);
+Route::get('obtener-conductores', [ConductorController::class, 'obtenerTodosConductores']);
 
 // API Asignar conductores
 Route::post('asignacion/{idConductor}/{idVehiculo}', [ConductorController::class, 'asignacionConductor']);
 
 // API Obtener Vehiculos
-Route::get('obtener-vehiculos', [ConductorController::class, 'obtenerVehiculos']);
+Route::get('obtener-vehiculos', [ConductorController::class, 'obtenerTodosVehiculos']);
 
 // API Obtener asignaciones
 Route::get('obtener-asignacion', [ConductorController::class, 'conductoresVehiculos']);
