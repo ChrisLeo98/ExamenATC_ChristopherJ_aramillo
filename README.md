@@ -1,2 +1,2 @@
-# ExamenATC_ChristopherJ_aramillo
+# ExamenATC_Christopher_Jaramillo
 Examen técnico para postulación ATC
